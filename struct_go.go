@@ -25,4 +25,6 @@ func main() {
 		Harga: "Rp 330000",
 	}
 	c1.Get()
+	c3 := Car{"Cevrolet", "2011", "Rp 99999"}
+	c3.Get()
 }
